@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'C1AudioTool_Example' do
   pod 'C1AudioTool', :path => '../'
-
+  pod 'AudioStreamer'
   target 'C1AudioTool_Tests' do
     inherit! :search_paths
 

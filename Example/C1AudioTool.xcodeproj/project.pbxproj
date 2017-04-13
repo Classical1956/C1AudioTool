@@ -23,6 +23,13 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A4F0F8DB1E9F286C0046EE49 /* C1AudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F8DA1E9F286C0046EE49 /* C1AudioTool.m */; };
+		A4F0F8DF1E9F2BF40046EE49 /* C1LocaAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F8DE1E9F2BF40046EE49 /* C1LocaAudioTool.m */; };
+		A4F0F8E01E9F2BF40046EE49 /* C1LocaAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F8DE1E9F2BF40046EE49 /* C1LocaAudioTool.m */; };
+		A4F0F8E31E9F2C090046EE49 /* C1StreamerAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F8E21E9F2C090046EE49 /* C1StreamerAudioTool.m */; };
+		A4F0F8E41E9F2C090046EE49 /* C1StreamerAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F8E21E9F2C090046EE49 /* C1StreamerAudioTool.m */; };
+		A4F0F8E61E9F57BE0046EE49 /* 10405520.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F8E51E9F57BE0046EE49 /* 10405520.mp3 */; };
+		A4F0F8E71E9F57BE0046EE49 /* 10405520.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F8E51E9F57BE0046EE49 /* 10405520.mp3 */; };
 		F14D81E675ABA5DD0FFCCCBD /* Pods_C1AudioTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A26CBA392DEA0A70D95E31 /* Pods_C1AudioTool_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,11 +67,19 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6456F34EA1B794E7CFD4DEDB /* Pods-C1AudioTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C1AudioTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-C1AudioTool_Tests/Pods-C1AudioTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		79E5F0D40CF4EE64347CA1C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8738A503B3DCC8A2752AA58B /* C1AudioTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = C1AudioTool.podspec; path = ../C1AudioTool.podspec; sourceTree = "<group>"; };
+		79E5F0D40CF4EE64347CA1C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8738A503B3DCC8A2752AA58B /* C1AudioTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = C1AudioTool.podspec; path = ../C1AudioTool.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B5F52B521C2C560A63A0E72 /* Pods-C1AudioTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C1AudioTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-C1AudioTool_Example/Pods-C1AudioTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		90402E969B37ECCD2BE04640 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		90402E969B37ECCD2BE04640 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A4F0F8D91E9F286C0046EE49 /* C1AudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C1AudioTool.h; sourceTree = "<group>"; };
+		A4F0F8DA1E9F286C0046EE49 /* C1AudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C1AudioTool.m; sourceTree = "<group>"; };
+		A4F0F8DC1E9F29FB0046EE49 /* C1AudioPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C1AudioPlayerDelegate.h; sourceTree = "<group>"; };
+		A4F0F8DD1E9F2BF40046EE49 /* C1LocaAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C1LocaAudioTool.h; sourceTree = "<group>"; };
+		A4F0F8DE1E9F2BF40046EE49 /* C1LocaAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C1LocaAudioTool.m; sourceTree = "<group>"; };
+		A4F0F8E11E9F2C090046EE49 /* C1StreamerAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C1StreamerAudioTool.h; sourceTree = "<group>"; };
+		A4F0F8E21E9F2C090046EE49 /* C1StreamerAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C1StreamerAudioTool.m; sourceTree = "<group>"; };
+		A4F0F8E51E9F57BE0046EE49 /* 10405520.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10405520.mp3; sourceTree = "<group>"; };
 		E0A26CBA392DEA0A70D95E31 /* Pods_C1AudioTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_C1AudioTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9897985EEF112A180A7337E /* Pods-C1AudioTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C1AudioTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-C1AudioTool_Tests/Pods-C1AudioTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +147,7 @@
 		6003F593195388D20070C39A /* Example for C1AudioTool */ = {
 			isa = PBXGroup;
 			children = (
+				A4F0F8D81E9F286C0046EE49 /* C1AudioTool */,
 				6003F59C195388D20070C39A /* C1AppDelegate.h */,
 				6003F59D195388D20070C39A /* C1AppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -194,6 +210,21 @@
 				6456F34EA1B794E7CFD4DEDB /* Pods-C1AudioTool_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4F0F8D81E9F286C0046EE49 /* C1AudioTool */ = {
+			isa = PBXGroup;
+			children = (
+				A4F0F8E51E9F57BE0046EE49 /* 10405520.mp3 */,
+				A4F0F8D91E9F286C0046EE49 /* C1AudioTool.h */,
+				A4F0F8DA1E9F286C0046EE49 /* C1AudioTool.m */,
+				A4F0F8DD1E9F2BF40046EE49 /* C1LocaAudioTool.h */,
+				A4F0F8DE1E9F2BF40046EE49 /* C1LocaAudioTool.m */,
+				A4F0F8E11E9F2C090046EE49 /* C1StreamerAudioTool.h */,
+				A4F0F8E21E9F2C090046EE49 /* C1StreamerAudioTool.m */,
+				A4F0F8DC1E9F29FB0046EE49 /* C1AudioPlayerDelegate.h */,
+			);
+			path = C1AudioTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +312,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				A4F0F8E61E9F57BE0046EE49 /* 10405520.mp3 in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -291,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				A4F0F8E71E9F57BE0046EE49 /* 10405520.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,9 +427,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F0F8DB1E9F286C0046EE49 /* C1AudioTool.m in Sources */,
 				6003F59E195388D20070C39A /* C1AppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* C1ViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				A4F0F8DF1E9F2BF40046EE49 /* C1LocaAudioTool.m in Sources */,
+				A4F0F8E31E9F2C090046EE49 /* C1StreamerAudioTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +441,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				A4F0F8E01E9F2BF40046EE49 /* C1LocaAudioTool.m in Sources */,
+				A4F0F8E41E9F2C090046EE49 /* C1StreamerAudioTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

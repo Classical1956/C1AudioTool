@@ -1,0 +1,19 @@
+PODS:
+  - AudioStreamer (0.1)
+  - C1AudioTool (0.1.0)
+
+DEPENDENCIES:
+  - AudioStreamer
+  - C1AudioTool (from `../`)
+
+EXTERNAL SOURCES:
+  C1AudioTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AudioStreamer: 87961951b2f27cad41d68043c1c42849b740b99f
+  C1AudioTool: 5b41d8638a15aed9e928dc466e94fd3792dfb347
+
+PODFILE CHECKSUM: 8fd5b012b43c75fe49d4348b7ae86e25e4acd146
+
+COCOAPODS: 1.2.0
