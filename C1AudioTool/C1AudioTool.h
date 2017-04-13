@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "C1AudioPlayerDelegate.h"
 
-@interface C1AudioTool : NSObject
+#define AUDIOTOOL ([C1AudioTool shareInstance])
+
+@interface C1AudioTool : NSObject <C1AudioPlayerDelegate>
+
 + (instancetype)shareInstance;
+- (void)backgroupPlay;
 @end
